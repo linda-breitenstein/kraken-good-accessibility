@@ -60,19 +60,8 @@ html {
 
 @media print {
 
-  .book-ends {
-    background-color: #fff;
-  }
-
   .chapter-ends {
-    background-color: #fff;
     border: #fff;
-    color: #000;
-  }
-
-  .old-book-style :first-child::first-line {
-    color: #000;
-    font-style: italic;
   }
 
   .inset-img {
