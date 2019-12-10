@@ -61,12 +61,12 @@ html {
 @media print {
 
   .book-ends {
-    color: #fff;
+    background-color: #fff;
   }
 
   .chapter-ends {
     background-color: #fff;
-    border: 1px solid #fff;
+    border: #fff;
     color: #000;
   }
 
