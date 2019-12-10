@@ -57,3 +57,26 @@ html {
   border-bottom: 0;
   border-radius: 6px 6px 0 0;
 }
+
+@media print {
+
+  .book-ends {
+    color: #fff;
+  }
+
+  .chapter-ends {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+  }
+
+  .old-book-style :first-child::first-line {
+    color: #000;
+    font-style: italic;
+  }
+
+  .inset-img {
+    border-color: #000;
+  }
+
+}
